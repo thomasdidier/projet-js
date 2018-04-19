@@ -1,0 +1,24 @@
+
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#rotating {
+    -webkit-animation: rotating 15s linear infinite;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+
+#btn{
+    display: block;
+    margin: 0 auto;
+}
